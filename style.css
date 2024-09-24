@@ -143,6 +143,11 @@ nav .menu-item {
     font-weight: 500;
 }
 
+nav img {
+    width: 80px;
+    height: 70px;
+}
+
 nav .menu-item a:hover {
     color: var(--accent-color)
 }
@@ -452,7 +457,7 @@ footer .copyright{
         line-height: 120%;
     }
     .container {
-        max-width: 700px;
+        max-width: 500px;
     }
 
     h2 {
@@ -496,7 +501,7 @@ header .left {
 
 .feature .logos {
      gap: 36px;
-}
+}a
 
 .feature img {
     height: 28px;
@@ -504,11 +509,15 @@ header .left {
 
 #about .container {
     flex-direction: column;
+    justify-items: center;
 }
 
 .features-container {
     flex-direction: column;
+    max-width: 50px;
 }
+ 
+
 
 #why .container {
     flex-direction: column;
