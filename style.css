@@ -490,7 +490,7 @@ header {
 }
 
 header .right img {
-    width: 70%;
+    width: 100%;
     height: auto;
     border-radius: 0 0 30% 30%;
 }
@@ -514,7 +514,6 @@ header .left {
 
 .features-container {
     flex-direction: column;
-    max-width: 50px;
 }
  
 
